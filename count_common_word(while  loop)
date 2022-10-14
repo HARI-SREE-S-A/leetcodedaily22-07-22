@@ -4,7 +4,7 @@ lisst = []
 i = 0
 
 while word1[i] in word2:
-    if word1.count(word1[i]) ==1 and word2.count(word1[i]) == 1:
+    if word1.count(word1[i]) ==  word2.count(word1[i]) == 1:
         lisst.append(word1[i])
     i+=1
     
