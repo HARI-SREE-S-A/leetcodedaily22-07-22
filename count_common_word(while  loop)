@@ -1,0 +1,11 @@
+word1 = ["leetcode","is","amazing","as","is"]
+word2 = ["amazing","leetcode","is"]
+lisst = []
+i = 0
+
+while word1[i] in word2:
+    if word1.count(word1[i]) ==1 and word2.count(word1[i]) == 1:
+        lisst.append(word1[i])
+    i+=1
+    
+print(len(lisst))
