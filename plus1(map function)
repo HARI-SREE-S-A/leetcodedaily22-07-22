@@ -1,0 +1,4 @@
+ digits_con = int("".join(map(str,digits)))
+        added = digits_con +1
+        digits_recon = list(map(int,str(added)))
+        return digits_recon
