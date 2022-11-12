@@ -12,6 +12,9 @@ for i,n in enumerate(nums):
 values = dicct.items()
 sorted_values = dict(sorted(dicct.items(),key = lambda item:item[1]))
 for value in new:
+
     new[value] = dicct[value]
 print(sorted_values)
+
+
 
