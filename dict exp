@@ -16,7 +16,7 @@ for value in new:
     new[value] = dicct[value]
 print(sorted_values)
 
-\\\\\\
+\\\\\\/////////
 
 nums = [1,1,1,2,2,2,5,5,5,5,5,5,5,5,3]
 k = 3
