@@ -3,3 +3,12 @@ class Solution:
     l = 0
     r = len(s) -1
     
+    while l < r :
+        while r < l and not chk[l]:
+            l += 1
+        while r > l and not chk[r]:
+            r -= 1
+        
+            
+         
+    
