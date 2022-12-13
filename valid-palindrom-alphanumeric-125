@@ -4,10 +4,13 @@ class Solution:
     r = len(s) -1
     
     while l < r :
-        while r < l and not chk[l]:
+        while r < l and not chk(s[l]):
             l += 1
-        while r > l and not chk[r]:
+        while r > l and not chk(s[r]):
             r -= 1
+        if s[l].lower != s[r].lower:
+            return False
+        else
         
             
          
