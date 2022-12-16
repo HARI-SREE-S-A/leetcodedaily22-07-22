@@ -20,6 +20,8 @@ class Solution:
           r-= 1
           rmax = max(rmax,height[r])
           res += rmax - height[r]
+        
+        
           
         return(res)
         
