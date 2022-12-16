@@ -3,6 +3,7 @@ class Solution:
         res = 0
         l = 0
         r = len(height)-1
+        
         while l < r:
             area = (r-l) * max(height[l],height[r]) # width * minimum height
             res = max(res,area)
