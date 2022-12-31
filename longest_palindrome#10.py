@@ -7,6 +7,8 @@
    "outputs": [],
    "source": [
     
+    
+    
     "class Solution:\n",
     "    def longestPalindrome(self, s: str) -> int:\n",
     "        counter = 0\n",
