@@ -9,4 +9,4 @@ class Solution:
           l += 1
         sett.add(s[r])
         res = max(res,r-l+1)
-      return
+      return(res)
