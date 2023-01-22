@@ -1,6 +1,6 @@
 class Solution:
     def kthDistinct(self, arr: List[str], k: int) -> str:
-        cnt = []       #place hold
+        cnt = []       #place holder
         x = len(arr)   #length of array
         for i in range(0,x):
             c = arr.count(arr[i]) #counting number of repeating strings
