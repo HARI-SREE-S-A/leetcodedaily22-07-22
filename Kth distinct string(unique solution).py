@@ -5,7 +5,7 @@ class Solution:
         for i in range(0,x):
             c = arr.count(arr[i]) #counting number of repeating strings
             if c ==1:
-                cnt.append(arr[i]) #creating and appending new list
+                cnt.append(arr[i]) #creating and appending new-list
         l = len(cnt)+1
         if k in range(0,l): # checking with k
             b = cnt[k-1]
