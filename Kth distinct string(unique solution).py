@@ -10,6 +10,7 @@ class Solution:
         if k in range(0,l): # checking with k
             b = cnt[k-1]
             return b
+        
         else:
             return("")
         
