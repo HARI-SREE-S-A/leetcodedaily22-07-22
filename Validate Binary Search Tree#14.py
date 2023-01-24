@@ -11,8 +11,7 @@
      "text": [
       "hellow world\n"
      ]
-    }
-    
+    } 
    ],
    "source": [
     "\n"
