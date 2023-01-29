@@ -7,7 +7,6 @@
    "outputs": [],
    "source": [
        
-  
     
     "# Definition for a binary tree node.\n",
     "# class TreeNode:\n",
