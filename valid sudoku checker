@@ -8,7 +8,7 @@ class Solution:
             rkey = (i,board[i][j])
             bkey = (i//3,j//3,board[i][j])
             if ((ckey in col) or (rkey in row) or (bkey in block)):
-                return True
+                return False
             else:
                 row.add(rkey)
                 col.add(ckey)
