@@ -8,8 +8,7 @@ class Solution:
              l = (i + 1)
              r = len(nums)-1
              while l < r :
-                
-                
+                  
                 
                 
                 summ = (n + nums[l] + nums[r])
