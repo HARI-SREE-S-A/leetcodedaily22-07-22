@@ -9,8 +9,7 @@ class Solution:
 
 
         
-        
-        
+       
         
         for x in sortedmap.keys():
             l.append(x)
