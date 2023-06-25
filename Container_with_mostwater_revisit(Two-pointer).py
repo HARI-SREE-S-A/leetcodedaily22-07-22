@@ -13,4 +13,20 @@ while l < r:
 print(res)
 
 
+\\\\\\\\\\\\\\\Brute force////////////////////////
+
+
+
+height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+
+
+res = 0
+
+for i in range(0,len(height)-1):
+    for j in range(i+1,len(height)):
+        area = (j-i) * min(height[i],height[j])
+        res = max(res,area)
+print(res)
+
+
 
