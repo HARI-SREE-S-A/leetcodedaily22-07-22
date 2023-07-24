@@ -3,6 +3,7 @@ class Solution:
         result = [1]*len(nums)
         prefix = 1
         suffix = 1
+
         for i in range(len(nums)):
             result[i] = prefix 
             prefix *= nums[i]
