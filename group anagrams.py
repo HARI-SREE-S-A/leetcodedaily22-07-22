@@ -8,4 +8,5 @@ class Solution:
                 mapp[sortedword].append(n)
             else:
                 mapp[sortedword] = [n]
+                
         return(list(mapp.values()))
