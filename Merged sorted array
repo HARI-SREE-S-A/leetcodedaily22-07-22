@@ -4,3 +4,18 @@ class Solution:
         Do not return anything, modify nums1 in-place instead.
         """
         nums1[:] = sorted(nums1[:m]+nums2)
+
+
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        last = len(nums1) -1
+        
+        for i in range(n):
+            nums1[last] = nums2[i]
+            last -= 1
+        nums1.sort()
+        
+
