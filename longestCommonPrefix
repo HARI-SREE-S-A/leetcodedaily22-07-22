@@ -14,3 +14,18 @@ for w in strs:
             break
 final = "".join(ans)
 final
+
+###############################################
+
+strs = ["flower","flow","flight"]
+l = 0
+r = len(strs)-1
+
+while l < r:
+    
+    length = min(len(strs[l]),len(strs[r]))
+    for i in range(length):
+        if strs[l][i] != strs[r][i]:
+            print(strs[l][i])
+    l+=1
+    r=-1
