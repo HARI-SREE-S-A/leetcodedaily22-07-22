@@ -1,0 +1,16 @@
+strs = sorted(strs)
+print(strs)
+
+check = list(strs[0])
+ans = check.copy()
+
+for w in strs:
+    print("selected word is ",w)
+    length = min(len(w),len(strs[0]))
+    for i in range(length):
+        if check[i] != w[i]:
+            print("ans is" ,ans[:i])
+            ans = ans[:i]
+            break
+final = "".join(ans)
+final
