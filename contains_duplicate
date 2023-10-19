@@ -3,3 +3,11 @@ class Solution:
         num = set(nums)
         if len(num) != len(nums):
             return True
+
+##########################################################
+
+a = set()
+for n in nums:
+    if n not in a:
+        a.add(n)
+    return True
