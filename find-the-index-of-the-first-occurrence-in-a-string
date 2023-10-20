@@ -1,1 +1,17 @@
-
+word = "sabsaduts"
+nn = "sad"
+x = []
+b = []
+j = 0
+for i in range(len(word)):
+    if j < len(nn) and  nn[j] == word[i]:
+        x.append(i)
+        j += 1
+        
+    else:
+        j = 0
+        if len(x) == len(nn):
+            b = x
+            
+        x = []
+print(x,b)
