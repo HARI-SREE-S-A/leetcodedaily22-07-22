@@ -9,7 +9,8 @@ class Solution:
              r = len(nums)-1
              while l < r :
                   
-                
+
+                 
                 
                 summ = (n + nums[l] + nums[r])
                 if summ > 0:
