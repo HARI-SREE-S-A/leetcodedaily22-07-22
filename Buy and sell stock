@@ -3,6 +3,7 @@ class Solution:
         res = 0
         buy = prices[0]
 
+
         for p in prices:
             if p < buy:
                 buy = p
